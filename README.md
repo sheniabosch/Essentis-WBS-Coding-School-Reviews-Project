@@ -1,3 +1,24 @@
+# 🧹 src_reviews_cleaning
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Deep-Translator](https://img.shields.io/badge/API-Deep--Translator-success?style=for-the-badge)
+![License](https://img.shields.io/badge/Project-Essentis_Internship-rebeccapurple?style=for-the-badge)
+
+A modular, automated Python pipeline designed to clean, translate, and deduplicate student reviews for **WBS Coding School**. This project ensures data integrity for downstream analytics and dashboarding.
+
+---
+
+## 🚀 Quick Start
+
+Get the cleaned dataset in just two lines of code:
+
+```python
+from src_reviews_cleaning.pipeline import run
+
+# Returns a cleaned DataFrame (~843 rows, 18 columns)
+df = run(save_csv=True)
+
 # src_reviews_cleaning
 
 A modular Python data cleaning pipeline for WBS Coding School student reviews.
